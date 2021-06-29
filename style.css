@@ -461,6 +461,10 @@ footer {
     margin: 2.2em auto 0;
     width: 70%;
   }
+  .gallery {
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: unset;
+  }
   .milkbottles {
     background-image: url("./images/desktop/image-gallery-milkbottles.jpg");
   }
